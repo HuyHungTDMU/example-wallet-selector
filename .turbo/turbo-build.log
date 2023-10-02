@@ -1,0 +1,84 @@
+
+> example@0.1.1 build /Users/huyhung/Projects/coin98-wallet-selector/apps/example
+> next build
+
+- info Creating an optimized production build...
+- warn Compiled with warnings
+
+../../node_modules/.pnpm/@walletconnect+keyvaluestorage@1.0.2/node_modules/@walletconnect/keyvaluestorage/dist/cjs/node-js/db.js
+Module not found: Can't resolve 'lokijs' in '/Users/huyhung/Projects/coin98-wallet-selector/node_modules/.pnpm/@walletconnect+keyvaluestorage@1.0.2/node_modules/@walletconnect/keyvaluestorage/dist/cjs/node-js'
+
+Import trace for requested module:
+../../node_modules/.pnpm/@walletconnect+keyvaluestorage@1.0.2/node_modules/@walletconnect/keyvaluestorage/dist/cjs/node-js/db.js
+../../node_modules/.pnpm/@walletconnect+keyvaluestorage@1.0.2/node_modules/@walletconnect/keyvaluestorage/dist/cjs/node-js/index.js
+../../node_modules/.pnpm/@walletconnect+keyvaluestorage@1.0.2/node_modules/@walletconnect/keyvaluestorage/dist/cjs/index.js
+../../node_modules/.pnpm/@walletconnect+core@2.8.5/node_modules/@walletconnect/core/dist/index.cjs.js
+../../node_modules/.pnpm/@walletconnect+sign-client@2.8.5/node_modules/@walletconnect/sign-client/dist/index.cjs.js
+../../packages/wallets/walletconnect/solana/dist/chunk-EBTATXXS.mjs
+../../packages/wallets/walletconnect/solana/dist/index.mjs
+../../packages/wallets/walletconnect/wallets/dist/index.mjs
+./components/ui/provider.tsx
+
+../../node_modules/.pnpm/keyv@4.5.3/node_modules/keyv/src/index.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/keyv@4.5.3/node_modules/keyv/src/index.js
+../../node_modules/.pnpm/cacheable-request@7.0.4/node_modules/cacheable-request/src/index.js
+../../node_modules/.pnpm/got@11.8.6/node_modules/got/dist/source/core/index.js
+../../node_modules/.pnpm/got@11.8.6/node_modules/got/dist/source/create.js
+../../node_modules/.pnpm/got@11.8.6/node_modules/got/dist/source/index.js
+../../node_modules/.pnpm/swarm-js@0.1.42/node_modules/swarm-js/lib/files.js
+../../node_modules/.pnpm/swarm-js@0.1.42/node_modules/swarm-js/lib/api-node.js
+../../node_modules/.pnpm/web3-bzz@1.9.0/node_modules/web3-bzz/lib/index.js
+../../node_modules/.pnpm/web3@1.9.0_encoding@0.1.13/node_modules/web3/lib/index.js
+./components/bnbtestnet-section.tsx
+./app/(routes)/page.tsx
+
+../../node_modules/.pnpm/pino@7.11.0/node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/Users/huyhung/Projects/coin98-wallet-selector/node_modules/.pnpm/pino@7.11.0/node_modules/pino/lib'
+
+Import trace for requested module:
+../../node_modules/.pnpm/pino@7.11.0/node_modules/pino/lib/tools.js
+../../node_modules/.pnpm/pino@7.11.0/node_modules/pino/pino.js
+../../node_modules/.pnpm/@walletconnect+logger@2.0.1/node_modules/@walletconnect/logger/dist/cjs/index.js
+../../node_modules/.pnpm/@walletconnect+sign-client@2.8.5/node_modules/@walletconnect/sign-client/dist/index.cjs.js
+../../packages/wallets/walletconnect/solana/dist/chunk-EBTATXXS.mjs
+../../packages/wallets/walletconnect/solana/dist/index.mjs
+../../packages/wallets/walletconnect/wallets/dist/index.mjs
+./components/ui/provider.tsx
+
+- info Linting and checking validity of types...
+- error ESLint: Plugin "@next/next" was conflicted between ".eslintrc.json » eslint-config-next/core-web-vitals » plugin:@next/next/core-web-vitals" and "../../.eslintrc.js » eslint-config-custom » eslint-config-next » plugin:@next/next/recommended".
+- info Collecting page data...
+- info Generating static pages (0/5)
+- info Generating static pages (1/5)
+- info Generating static pages (2/5)
+- info Generating static pages (3/5)
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+(node:78220) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+- info Generating static pages (5/5)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      898 kB         1.39 MB
+├ ○ /favicon.ico                           0 B                0 B
+└ ○ /test                                  136 B          78.9 kB
++ First Load JS shared by all              78.7 kB
+  ├ chunks/934-c9dc683026c512ca.js         26.2 kB
+  ├ chunks/c260e7fb-8f6bf6a4d6701a26.js    50.5 kB
+  ├ chunks/main-app-352a4d437de1e0e1.js    226 B
+  └ chunks/webpack-36f02d61698de7aa.js     1.82 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   184 B          76.8 kB
++ First Load JS shared by all              76.6 kB
+  ├ chunks/framework-5914f800e5c1bf38.js   45.1 kB
+  ├ chunks/main-774eeb18597a4e8f.js        29.5 kB
+  ├ chunks/pages/_app-afdf1ca42a688b5f.js  196 B
+  └ chunks/webpack-36f02d61698de7aa.js     1.82 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

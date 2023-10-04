@@ -1,7 +1,7 @@
-import { MouseEventHandler } from 'react';
+import { MouseEventHandler } from "react";
 
-import { cn } from '@/lib/utils';
-import { Button } from '@coin98t/wallet-adapter-react-ui';
+import { cn } from "@/lib/utils";
+import { Button } from "@coin98t/wallet-adapter-react-ui";
 
 interface CustomButtonProps {
   onClick?: MouseEventHandler<HTMLButtonElement> | undefined;
@@ -10,11 +10,22 @@ interface CustomButtonProps {
   className?: string;
 }
 
-const CustomButton: React.FC<CustomButtonProps> = ({ onClick, icon, title, className }) => {
+const CustomButton: React.FC<CustomButtonProps> = ({
+  onClick,
+  icon,
+  title,
+  className,
+}) => {
   return (
-    <Button onClick={onClick} className={cn('py-2 bg-[#fdd05a] border-textPrimary flex items-center', className)}>
+    <Button
+      onClick={onClick}
+      className={cn(
+        "py-2 bg-[#fdd05a] border-textPrimary flex items-center",
+        className
+      )}
+    >
       {title}
-      {icon && <div>{icon}</div>}
+      {icon}
     </Button>
   );
 };
